@@ -7,7 +7,7 @@ import { mainCroselData } from './MainCroselData';
 
 
 const MainCrosel = () => {
-    const items=mainCroselData.map((item)=><img className='cursor-pointer h-[45rem]' role='presentation' src={item.image} alt="" height="200px" width="100%"/>);
+    const items=mainCroselData.map((item)=><img className='cursor-pointer h-[45rem] -z-10 mt-10' role='presentation' src={item.image} alt="" height="200px" width="100%"/>);
     return(<AliceCarousel
         items={items}
         disableButtonsControls
