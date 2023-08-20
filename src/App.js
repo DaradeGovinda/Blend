@@ -6,9 +6,9 @@ import HomePage from './customer/components/Pages/HomePage/HomePage';
 
 function App() {
   return (
-    <div className="">
+    <div className="z-100">
     <Navigation/>
-      <div>
+      <div className='z-10'>
         <HomePage/>    
       </div>
       <Footer/>
